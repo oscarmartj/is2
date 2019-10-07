@@ -1,2 +1,2 @@
-# is2
-Aplicación de degustación de tapas
+# Aplicación JAVA
+Aplicación desarrollada en Java y SQL.
