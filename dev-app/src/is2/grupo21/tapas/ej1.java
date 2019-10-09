@@ -28,7 +28,6 @@ public class ej1 extends JFrame
 		this.setLocationRelativeTo(null);                                                     
         this.setResizable(true);                               
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
-        
  
 	}
  
@@ -46,6 +45,12 @@ public class ej1 extends JFrame
        entrar.setBounds(300,480,200,30);
        //entrar.addActionListener(this);
        add(entrar);
+	}
+	
+	public void actionPerformed(ActionEvent action) {
+		if(action.getSource() == crear) {
+			
+		}
 	}
  
 	public static void main(String H[]){
